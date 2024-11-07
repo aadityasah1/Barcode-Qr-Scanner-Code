@@ -25,7 +25,7 @@ A project like the webcam-based barcode scanner serves the purpose of helping ot
 
 Here is the code for this program:-
 
-# using packages 
+```# using packages 
 #pip install opencv-python 
 #pip install pydub 
 #pip install pyzbar 
@@ -59,4 +59,4 @@ while cap.isOpened():
 
     cv2.imshow('scanner' , frame)
     if cv2.waitKey(1) == ord('q'):
-        break
+        break```
